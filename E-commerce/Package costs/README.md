@@ -20,7 +20,8 @@ The script is executed from the command line with the following arguments:
 - **-f** or **--file** : The path to Excel or CSV file to be processed.
 - **-c** or **--courier** : The courier type, which can be one of "DPD", "InPost" or "GLS".
 
-Example:
+Example: 
+
 `
 python package_costs.py -f path/to/file.xlsx -c DPD
 `
