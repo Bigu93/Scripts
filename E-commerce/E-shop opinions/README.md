@@ -1,4 +1,4 @@
-# Fetch opinions from e-shop
+# Fetch product opinions
 
 ## Overview
 
