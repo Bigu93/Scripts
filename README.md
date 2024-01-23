@@ -1,2 +1,2 @@
 # Scripts
-Useful scripts for almost everything what I have done
+Useful scripts for various topics. Automating things in e-commerce etc.
