@@ -33,6 +33,6 @@ def remove_matching_rows(file1_path, file2_path, start_row=5):
     wb2.save(file2_path)
     logging.info(f"Rows removed and {file2_path} saved.")
 
-file1_path = "allegro.xlsm"
-file2_path = "allegro2.xlsm"
+file1_path = "xxx.xlsm"
+file2_path = "xxx2.xlsm"
 remove_matching_rows(file1_path, file2_path)
