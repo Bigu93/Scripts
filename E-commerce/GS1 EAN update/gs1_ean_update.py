@@ -40,7 +40,6 @@ STARTING_ROW = 3
 
 
 def generate_auth_key():
-    """Generates an authentication key using the secret key and the current date."""
     combined = TODAY + hashlib.sha1(SECRET_KEY.encode()).hexdigest()
     return hashlib.sha1(combined.encode()).hexdigest()
 
