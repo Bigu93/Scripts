@@ -120,7 +120,7 @@ async def fetch_order_opinions():
 
     ensure_directory(csv_folder)
 
-    url_template = "https://butosklep.pl/ajax/opinions.php?action=get&type=order&language=pol&resultsLimit=100&shopId=1&resultsPage={}&ordersBy[0][elementName]=date&ordersBy[0][sortDirection]=DESC"
+    url_template = "https://xxx.pl/ajax/opinions.php?action=get&type=order&language=pol&resultsLimit=100&shopId=1&resultsPage={}&ordersBy[0][elementName]=date&ordersBy[0][sortDirection]=DESC"
     data = []
 
     async with aiohttp.ClientSession() as session:
